@@ -1,10 +1,6 @@
 package com.zlx.module_mine.bean;
 
-/**
- * Created by zlx on 2020/9/22 17:10
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class OpenSourcePro {
     private String author;
     private String content;

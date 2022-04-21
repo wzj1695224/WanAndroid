@@ -6,11 +6,7 @@ import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by zlx on 2020/9/25 10:56
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class SizeUtils {
 
     private SizeUtils() {

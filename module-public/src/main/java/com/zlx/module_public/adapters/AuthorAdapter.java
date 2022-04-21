@@ -14,6 +14,7 @@ import com.zlx.widget.hivelayoutmanager.HiveLayoutManager;
 
 import java.util.List;
 
+
 public class AuthorAdapter extends BaseRecycleAdapter<PublicAuthorListRes> {
 
     public AuthorAdapter(List<PublicAuthorListRes> datas) {

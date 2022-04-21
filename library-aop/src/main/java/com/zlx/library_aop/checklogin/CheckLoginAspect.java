@@ -1,25 +1,18 @@
 package com.zlx.library_aop.checklogin;
 
-
 import android.util.Log;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.zlx.library_aop.checklogin.annotation.CheckLogin;
-import com.zlx.module_base.database.MMkvHelper;
 import com.zlx.module_base.base_api.res_data.UserInfo;
-
+import com.zlx.module_base.database.MMkvHelper;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 
-/**
- * FileName:
- * Created by zlx on 2020/9/21 9:27
- * Email: 1170762202@qq.com
- * Description:
- */
+
 @Aspect
 public class CheckLoginAspect {
 

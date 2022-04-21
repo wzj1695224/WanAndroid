@@ -13,8 +13,6 @@ import androidx.annotation.FloatRange;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.alibaba.fastjson.JSON;
-import com.zlx.module_network.util.LogUtil;
 import com.zlx.widget.R;
 
 import org.jetbrains.annotations.NotNull;
@@ -26,11 +24,6 @@ import java.util.List;
 import kotlin.jvm.internal.Intrinsics;
 
 
-/**
- * Created by zlx on 2020/9/29 9:41
- * Email: 1170762202@qq.com
- * Description:
- */
 public class IndicatorView extends FrameLayout implements OnScrollChangedListener {
 
     private List<IndicatorItem> indicatorItemsList = new ArrayList();

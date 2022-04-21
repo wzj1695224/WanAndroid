@@ -4,11 +4,7 @@ import com.zlx.module_base.base_api.res_data.SearchBeanRes;
 
 import java.util.List;
 
-/**
- * Created by zlx on 2020/9/23 14:39
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class SearchBean {
     private String title;
     private List<SearchBeanRes> data;

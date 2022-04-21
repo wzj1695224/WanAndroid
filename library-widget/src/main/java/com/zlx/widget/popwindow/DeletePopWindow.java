@@ -3,7 +3,6 @@ package com.zlx.widget.popwindow;
 import android.content.Context;
 import android.graphics.Color;
 import android.view.Gravity;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.TextView;
 
@@ -13,11 +12,7 @@ import com.zlx.widget.R;
 
 import razerdp.basepopup.BasePopupWindow;
 
-/**
- * Created by zlx on 2020/9/28 10:40
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class DeletePopWindow extends BasePopupWindow {
 
 

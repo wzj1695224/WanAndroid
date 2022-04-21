@@ -2,6 +2,7 @@ package com.zlx.widget.revealanim;
 
 import android.view.animation.Interpolator;
 
+
 public abstract class SupportAnimator {
 
     /**

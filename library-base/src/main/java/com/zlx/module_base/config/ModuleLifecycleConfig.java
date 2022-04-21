@@ -7,11 +7,7 @@ import androidx.annotation.Nullable;
 import com.zlx.module_base.BaseApplication;
 import com.zlx.module_base.module.IModuleInit;
 
-/**
- * Created by zlx on 2020/9/22 14:26
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class ModuleLifecycleConfig {
 
     private ModuleLifecycleConfig() {
@@ -19,8 +15,7 @@ public class ModuleLifecycleConfig {
     }
 
     private static class SingleHolder {
-        private static ModuleLifecycleConfig instance =
-                new ModuleLifecycleConfig();
+        private static ModuleLifecycleConfig instance = new ModuleLifecycleConfig();
     }
 
     public static ModuleLifecycleConfig getInstance() {
@@ -36,11 +31,9 @@ public class ModuleLifecycleConfig {
                 Class<?> clazz = Class.forName(moduleName);
                 IModuleInit init = (IModuleInit) clazz.newInstance();
                 init.onInitAhead(application);
-            } catch (ClassNotFoundException | InstantiationException
-                    | IllegalAccessException e) {
+            } catch (ClassNotFoundException | InstantiationException | IllegalAccessException e) {
                 e.printStackTrace();
             }
-
         }
     }
 

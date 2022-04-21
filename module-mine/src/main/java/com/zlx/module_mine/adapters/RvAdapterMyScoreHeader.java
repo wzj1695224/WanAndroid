@@ -13,20 +13,15 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.alibaba.android.vlayout.DelegateAdapter;
 import com.alibaba.android.vlayout.LayoutHelper;
 import com.alibaba.android.vlayout.layout.SingleLayoutHelper;
-import com.zlx.module_base.database.MMkvHelper;
 import com.zlx.module_base.constant.C;
+import com.zlx.module_base.database.MMkvHelper;
 import com.zlx.module_mine.R;
 import com.zlx.module_mine.R2;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * FileName: RvAdapterMyScoreHeader
- * Created by zlx on 2020/9/22 9:11
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class RvAdapterMyScoreHeader extends DelegateAdapter.Adapter<RvAdapterMyScoreHeader.ViewHolder> {
 
 

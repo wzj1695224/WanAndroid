@@ -5,9 +5,6 @@ import android.util.Log;
 import com.zlx.module_network.BuildConfig;
 
 
-/**
- * Created by Zlx on 2017/5/3.
- */
 public class LogUtil {
     private static final String TAG = "LogUtil";
     public final static int logSubLenth = 3000;//每行log长度

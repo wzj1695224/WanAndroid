@@ -9,6 +9,7 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 import com.google.android.material.appbar.AppBarLayout;
 
+
 public class AppBarLayoutOverScrollViewBehavior extends AppBarLayout.Behavior {
     private int mAppBarHeight;
     private View mCardView;
@@ -88,8 +89,6 @@ public class AppBarLayoutOverScrollViewBehavior extends AppBarLayout.Behavior {
 
     /**
      * 初始化数据
-     *
-     * @param appBarLayout
      */
     private void init(final AppBarLayout appBarLayout) {
         appBarLayout.setClipChildren(false);
@@ -120,11 +119,7 @@ public class AppBarLayoutOverScrollViewBehavior extends AppBarLayout.Behavior {
 
 
     /**
-     * 混动
-     *
-     * @param child
-     * @param target
-     * @param dy
+     * 滑动
      */
     private void scrollY(AppBarLayout child, View target, int dy) {
         mTotalDy += -dy;
@@ -138,9 +133,6 @@ public class AppBarLayoutOverScrollViewBehavior extends AppBarLayout.Behavior {
 
     /**
      * 根据滑动设置 toolbar  名字显示效果
-     *
-     * @param target
-     * @param dy
      */
     private void setViewAlpha(View target, int dy) {
         float percent = Math.abs(target.getY() / mLimitHeight);
@@ -161,8 +153,6 @@ public class AppBarLayoutOverScrollViewBehavior extends AppBarLayout.Behavior {
 
     /**
      * 恢复位置
-     *
-     * @param abl
      */
     private void recovery(final AppBarLayout abl) {
         if (mTotalDy >= 0) {

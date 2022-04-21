@@ -13,6 +13,7 @@ import retrofit2.Call;
 import retrofit2.CallAdapter;
 import retrofit2.Retrofit;
 
+
 public class ApiCallAdapterFactory extends CallAdapter.Factory {
 
     private ApiCallAdapterFactory() {
@@ -42,7 +43,6 @@ public class ApiCallAdapterFactory extends CallAdapter.Factory {
      * Mapi的call
      *
      * @param <R> 数据类型
-     * @author Administrator
      */
     public class MapiCallAdapter<R> implements CallAdapter<ApiResponse<R>, ApiCall<R>> {
 

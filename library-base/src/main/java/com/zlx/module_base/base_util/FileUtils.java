@@ -9,20 +9,13 @@ import android.os.Environment;
 import android.util.Log;
 import android.view.View;
 
-import com.tencent.mmkv.MMKV;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.math.BigDecimal;
 
-/**
- * FileName: FileUtils
- * Created by zlx on 2020/9/22 9:48
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class FileUtils {
 
     public static boolean isSDCardAlive() {

@@ -12,6 +12,7 @@ import com.zlx.module_network.factory.ApiCallback;
 
 import java.util.List;
 
+
 public class SquareViewModel extends BaseViewModel<SquareRepository> {
     public MutableLiveData<List<TreeListRes>> treesLiveData = new MutableLiveData<>();
     public MutableLiveData<List<TreeListRes>> navisLiveData = new MutableLiveData<>();

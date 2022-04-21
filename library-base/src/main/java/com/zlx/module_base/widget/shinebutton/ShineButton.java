@@ -21,11 +21,7 @@ import android.view.animation.LinearInterpolator;
 import com.zlx.library_common.R;
 import com.zlx.module_base.widget.shinebutton.listener.SimpleAnimatorListener;
 
-/**
-  * Created by zlx on 2020/9/27 14:53
-  * Email: 1170762202@qq.com
-  * Description:
-*/
+
 public class ShineButton extends PorterShapeImageView {
     private static final String TAG = "ShineButton";
     private boolean isChecked = false;

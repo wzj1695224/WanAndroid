@@ -17,11 +17,7 @@ import com.zlx.module_home.R;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by zlx on 2020/9/23 11:39
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class RvAdapterSearchHis extends DelegateAdapter.Adapter<BaseViewHolder> {
 
     private List<SearchHistoryEntity> dataList;

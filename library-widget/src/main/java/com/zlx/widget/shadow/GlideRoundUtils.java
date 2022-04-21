@@ -14,6 +14,7 @@ import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.bumptech.glide.request.target.CustomTarget;
 import com.bumptech.glide.request.transition.Transition;
 
+
 public class GlideRoundUtils {
     public static void setRoundCorner(final View view, final Drawable resourceId, final float cornerDipValue) {
 

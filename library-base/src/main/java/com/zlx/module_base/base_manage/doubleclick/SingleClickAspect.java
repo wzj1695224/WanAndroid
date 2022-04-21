@@ -3,8 +3,6 @@ package com.zlx.module_base.base_manage.doubleclick;
 import android.content.res.Resources;
 import android.view.View;
 
-import com.zlx.module_base.base_util.LogUtils;
-
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;

@@ -1,11 +1,6 @@
 package com.zlx.module_base.constant;
 
-/**
- * FileName: RouterActivityPath
- * Created by zlx on 2020/9/18 10:21
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class RouterActivityPath {
 
     /**

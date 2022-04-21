@@ -11,11 +11,7 @@ import com.zlx.module_mine.bean.LanguageBean;
 
 import java.util.List;
 
-/**
- * Created by zlx on 2021/1/5 15:37
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class RvAdapterLanguageSet extends BaseRecycleAdapter<LanguageBean> {
 
     public RvAdapterLanguageSet(List<LanguageBean> datas) {

@@ -20,6 +20,7 @@ import com.zlx.sharelive.databinding.AcMainBinding;
 import com.zlx.sharelive.impl.TabPagerListener;
 import com.zlx.widget.bubblenavigation.listener.BubbleNavigationChangeListener;
 
+
 @Route(path = RouterActivityPath.Main.PAGER_MAIN)
 public class MainActivity extends BaseMvvmAc<AcMainBinding, BaseViewModel> implements BubbleNavigationChangeListener, TabPagerListener {
 
@@ -27,6 +28,7 @@ public class MainActivity extends BaseMvvmAc<AcMainBinding, BaseViewModel> imple
     protected boolean canSwipeBack() {
         return false;
     }
+
 
     @Override
     public void initViews() {
@@ -38,7 +40,6 @@ public class MainActivity extends BaseMvvmAc<AcMainBinding, BaseViewModel> imple
                 "android.permission.WRITE_EXTERNAL_STORAGE",
                 "android.permission.READ_EXTERNAL_STORAGE"
         );
-
     }
 
 

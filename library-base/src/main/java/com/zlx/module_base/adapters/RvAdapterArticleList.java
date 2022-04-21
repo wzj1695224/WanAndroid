@@ -7,18 +7,17 @@ import androidx.appcompat.widget.AppCompatImageView;
 import com.chad.library.adapter.base.BaseMultiItemQuickAdapter;
 import com.chad.library.adapter.base.viewholder.BaseViewHolder;
 import com.zlx.library_common.R;
+import com.zlx.module_base.base_api.res_data.ArticleBean;
 import com.zlx.module_base.base_util.GlideUtil;
 import com.zlx.module_base.constant.C;
-import com.zlx.module_base.base_api.res_data.ArticleBean;
 import com.zlx.module_base.widget.shinebutton.ShineButton;
 
 import org.jetbrains.annotations.NotNull;
 
+
+
 /**
- * FileName: RvAdapterArticleList
- * Created by zlx on 2020/9/18 15:45
- * Email: 1170762202@qq.com
- * Description: 文章列表
+ * 文章列表
  */
 public class RvAdapterArticleList extends BaseMultiItemQuickAdapter<ArticleBean, BaseViewHolder> {
 

@@ -4,11 +4,7 @@ import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 
-/**
- * Created by zlx on 2021/1/5 17:18
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class AppUtil {
     /**
      * 获取版本号

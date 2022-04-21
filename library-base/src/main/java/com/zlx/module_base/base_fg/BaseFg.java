@@ -22,9 +22,6 @@ import com.zlx.module_base.loadsir.LoadingCallback;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
-/**
- * Created by zlx on 2017/5/23.
- */
 
 public abstract class BaseFg extends Fragment {
 

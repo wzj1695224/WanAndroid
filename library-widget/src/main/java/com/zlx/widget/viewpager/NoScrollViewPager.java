@@ -8,12 +8,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewpager.widget.ViewPager;
 
-/**
- * @date: 2019\3\6 0006
- * @author: zlx
- * @email: 1170762202@qq.com
- * @description:
- */
+
 public class NoScrollViewPager extends ViewPager {
     //是否可以左右滑动？true 可以，像Android原生ViewPager一样。
     // false 禁止ViewPager左右滑动。

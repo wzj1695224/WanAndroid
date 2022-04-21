@@ -11,10 +11,6 @@ import java.util.Locale;
 import java.util.TimeZone;
 
 
-/**
- * Created by Administrator on 2019\1\8 0008.
- */
-
 public class TimeUtil {
 
 

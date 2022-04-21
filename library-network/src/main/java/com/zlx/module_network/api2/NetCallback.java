@@ -1,8 +1,8 @@
 package com.zlx.module_network.api2;
 
-
 import io.reactivex.annotations.NonNull;
 import io.reactivex.disposables.Disposable;
+
 
 public abstract class NetCallback<T> {
 

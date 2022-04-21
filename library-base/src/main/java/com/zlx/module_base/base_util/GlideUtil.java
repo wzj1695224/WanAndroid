@@ -1,5 +1,7 @@
 package com.zlx.module_base.base_util;
 
+import static com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions.withCrossFade;
+
 import android.graphics.drawable.Drawable;
 import android.widget.ImageView;
 
@@ -10,14 +12,7 @@ import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 import com.bumptech.glide.request.RequestOptions;
 
-import static com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions.withCrossFade;
 
-/**
- * FileName: GlideUtil
- * Created by zlx on 2020/9/18 16:02
- * Email: 1170762202@qq.com
- * Description:
- */
 public class GlideUtil {
 
     private GlideUtil() {

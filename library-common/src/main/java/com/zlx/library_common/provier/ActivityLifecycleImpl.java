@@ -6,11 +6,7 @@ import android.util.Log;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 
-/**
- * Created by zlx on 2020/9/23 13:57
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class ActivityLifecycleImpl {
 
     static final ActivityLifecycleImpl INSTANCE = new ActivityLifecycleImpl();

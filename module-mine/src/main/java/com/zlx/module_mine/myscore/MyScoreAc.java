@@ -23,11 +23,11 @@ import com.zlx.module_mine.databinding.AcMyScoreBinding;
 import java.util.ArrayList;
 import java.util.List;
 
+
+
+
 /**
- * FileName: MyScoreAc
- * Created by zlx on 2020/9/21 17:52
- * Email: 1170762202@qq.com
- * Description: 我的积分
+ * 我的积分
  */
 public class MyScoreAc extends BaseMvvmAc<AcMyScoreBinding, MyScoreViewModel> implements OnRefreshLoadMoreListener {
 

@@ -25,6 +25,7 @@ import io.reactivex.ObservableOnSubscribe;
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
 
+
 public class SettingViewModel extends BaseTopBarViewModel<SettingRepository> {
     public MutableLiveData<String> cacheData = new MutableLiveData<>();
     private FragmentActivity mContext;

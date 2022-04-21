@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 
 import com.zlx.module_network.bean.ApiResponse;
 
+
 public interface ApiCallback<T> {
 
     /**

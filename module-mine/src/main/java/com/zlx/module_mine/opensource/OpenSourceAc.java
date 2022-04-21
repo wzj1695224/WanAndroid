@@ -16,11 +16,7 @@ import com.zlx.module_mine.databinding.AcOpenSourceBinding;
 
 import java.util.List;
 
-/**
- * Created by zlx on 2020/9/22 17:15
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class OpenSourceAc extends BaseMvvmAc<AcOpenSourceBinding, OpenSourceViewModel> {
 
     RvAdapterOpenSourcePro adapterOpenSourcePro;

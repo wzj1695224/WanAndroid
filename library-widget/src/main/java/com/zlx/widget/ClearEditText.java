@@ -13,6 +13,7 @@ import android.view.animation.TranslateAnimation;
 
 import androidx.appcompat.widget.AppCompatEditText;
 
+
 public class ClearEditText extends AppCompatEditText implements View.OnFocusChangeListener, TextWatcher {
 
     //右边的删除按钮
@@ -55,9 +56,6 @@ public class ClearEditText extends AppCompatEditText implements View.OnFocusChan
 
     /**
      * 有焦点，并文本长度大于0则显示删除按钮
-     *
-     * @param v
-     * @param hasFocus
      */
     @Override
     public void onFocusChange(View v, boolean hasFocus) {
@@ -71,11 +69,6 @@ public class ClearEditText extends AppCompatEditText implements View.OnFocusChan
     /**
      * 文本内容变化时回调
      * 当文本长度大于0时显示删除按钮， 否则隐藏
-     *
-     * @param text
-     * @param start
-     * @param lengthBefore
-     * @param lengthAfter
      */
     @Override
     public void onTextChanged(CharSequence text, int start, int lengthBefore, int lengthAfter) {
@@ -121,9 +114,6 @@ public class ClearEditText extends AppCompatEditText implements View.OnFocusChan
 
     /**
      * EditText抖动
-     *
-     * @param counts
-     * @return
      */
     public void startShake(int counts) {
         Animation translateAnimation = new TranslateAnimation(0, 10, 0, 0);

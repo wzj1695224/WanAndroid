@@ -38,11 +38,7 @@ import androidx.core.view.ViewCompat;
 import com.zlx.widget.R;
 import com.zlx.widget.bubblenavigation.util.ViewUtils;
 
-/**
- * BubbleToggleView
- *
- * @author Gaurav Kumar
- */
+
 public class BubbleToggleView extends RelativeLayout {
 
     private static final String TAG = "BNI_View";

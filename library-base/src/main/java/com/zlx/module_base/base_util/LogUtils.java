@@ -5,11 +5,6 @@ import android.util.Log;
 import com.zlx.module_base.BuildConfig;
 
 
-/**
- * Created by lwb on 2017/12/25.
- * 日志封装
- */
-
 public class LogUtils {
     static String className;//类名
     static String methodName;//方法名

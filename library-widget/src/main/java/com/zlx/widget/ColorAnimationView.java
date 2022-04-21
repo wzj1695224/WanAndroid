@@ -10,12 +10,7 @@ import android.view.View;
 
 import androidx.viewpager.widget.ViewPager;
 
-/**
- * @date: 2019\3\8 0008
- * @author: zlx
- * @email: 1170762202@qq.com
- * @description:
- */
+
 public class ColorAnimationView extends View
         implements ValueAnimator.AnimatorUpdateListener, Animator.AnimatorListener {
     private static final int RED = 0xffFF8080;

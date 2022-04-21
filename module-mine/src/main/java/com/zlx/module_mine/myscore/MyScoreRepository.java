@@ -5,6 +5,7 @@ import com.zlx.module_base.base_api.res_data.RankListRes;
 import com.zlx.module_base.base_api.util.ApiUtil;
 import com.zlx.module_network.factory.ApiCallback;
 
+
 public class MyScoreRepository extends BaseModel {
     private int page = 1;
 

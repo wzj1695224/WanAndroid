@@ -6,7 +6,6 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.drawable.GradientDrawable;
 import android.util.AttributeSet;
-import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.ViewGroup;
 import android.view.animation.AccelerateInterpolator;
@@ -20,10 +19,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+
+
+
 /**
- * Created by zlx on 2020/9/29 10:11
- * Email: 1170762202@qq.com
- * Description: 左边指示器控件
+ * 左边指示器控件
  */
 public class IndicatorItemView extends FrameLayout {
 

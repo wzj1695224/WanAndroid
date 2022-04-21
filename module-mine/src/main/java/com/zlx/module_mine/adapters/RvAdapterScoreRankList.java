@@ -7,12 +7,7 @@ import com.zlx.module_mine.R;
 
 import org.jetbrains.annotations.NotNull;
 
-/**
- * FileName: RvAdapterScoreRankList
- * Created by zlx on 2020/9/21 15:56
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class RvAdapterScoreRankList extends BaseQuickAdapter<RankBean, BaseViewHolder> {
     public RvAdapterScoreRankList() {
         super(R.layout.rv_item_score_rank_list);

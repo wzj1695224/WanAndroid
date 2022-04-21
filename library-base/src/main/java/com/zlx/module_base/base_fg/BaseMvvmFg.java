@@ -9,13 +9,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
-import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.zlx.module_base.viewmodel.BaseViewModel;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
+
 
 public abstract class BaseMvvmFg<V extends ViewDataBinding, VM extends BaseViewModel> extends BaseFg {
     protected VM viewModel;

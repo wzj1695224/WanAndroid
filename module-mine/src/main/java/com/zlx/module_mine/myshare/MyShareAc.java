@@ -16,9 +16,8 @@ import com.yanzhenjie.recyclerview.SwipeMenuItem;
 import com.yanzhenjie.recyclerview.SwipeRecyclerView;
 import com.zlx.module_base.adapters.RvAdapterArticleList;
 import com.zlx.module_base.base_ac.BaseMvvmAc;
-import com.zlx.module_base.base_api.res_data.ArticleListRes;
 import com.zlx.module_base.base_api.res_data.ArticleBean;
-import com.zlx.module_base.base_api.util.ApiUtil;
+import com.zlx.module_base.base_api.res_data.ArticleListRes;
 import com.zlx.module_base.base_util.RouterUtil;
 import com.zlx.module_mine.BR;
 import com.zlx.module_mine.R;
@@ -27,10 +26,11 @@ import com.zlx.widget.CustomItemDecoration;
 
 import java.util.List;
 
+
+
+
 /**
- * Created by zlx on 2020/9/25 11:12
- * Email: 1170762202@qq.com
- * Description: 我的分享
+ * 我的分享
  */
 public class MyShareAc extends BaseMvvmAc<AcMyShareBinding, MyShareViewModel> implements OnRefreshLoadMoreListener {
 

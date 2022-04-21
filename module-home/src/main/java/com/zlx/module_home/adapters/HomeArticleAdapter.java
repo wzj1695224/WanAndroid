@@ -12,9 +12,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.alibaba.android.vlayout.DelegateAdapter;
 import com.alibaba.android.vlayout.LayoutHelper;
 import com.alibaba.android.vlayout.layout.LinearLayoutHelper;
-import com.zlx.module_base.widget.shinebutton.ShineButton;
-import com.zlx.module_base.base_util.RouterUtil;
 import com.zlx.module_base.base_api.res_data.ArticleBean;
+import com.zlx.module_base.base_util.RouterUtil;
+import com.zlx.module_base.widget.shinebutton.ShineButton;
 import com.zlx.module_home.R;
 import com.zlx.module_home.R2;
 
@@ -22,6 +22,7 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+
 
 public class HomeArticleAdapter extends DelegateAdapter.Adapter<HomeArticleAdapter.ViewHolder> {
 

@@ -7,11 +7,7 @@ import com.zlx.module_base.viewmodel.BaseViewModel;
 import com.zlx.module_square.R;
 import com.zlx.module_square.databinding.AcSquareBinding;
 
-/**
- * Created by zlx on 2020/9/30 13:37
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class SquareAc extends BaseMvvmAc<AcSquareBinding, BaseViewModel> {
 
     @Override

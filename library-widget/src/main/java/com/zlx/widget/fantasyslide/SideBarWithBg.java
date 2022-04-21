@@ -9,7 +9,6 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 /**
  * 封装 SideBar 以及 SideBarBgView,保证 SideBarBgView 可以展示在 SideBar 背后
- * Created by CaoDongping on 9/6/16.
  */
 class SideBarWithBg extends RelativeLayout {
 

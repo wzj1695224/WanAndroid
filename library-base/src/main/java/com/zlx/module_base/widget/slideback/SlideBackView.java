@@ -27,7 +27,6 @@ import androidx.annotation.NonNull;
 
 /**
  * 滑动返回视觉动画处理交接view
- * Created by 沈钦赐 on 2018/10/27.
  */
 @SuppressLint("ViewConstructor")
 class SlideBackView extends View {

@@ -6,10 +6,11 @@ import android.view.View;
 
 import androidx.core.content.ContextCompat;
 
+
+
+
 /**
- * Created by zlx on 2020/9/29 9:57
- * Email: 1170762202@qq.com
- * Description: 左边指示器item
+ * 左边指示器item
  */
 public class IndicatorItem {
 

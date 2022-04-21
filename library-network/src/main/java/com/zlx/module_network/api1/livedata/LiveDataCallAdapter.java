@@ -2,7 +2,6 @@ package com.zlx.module_network.api1.livedata;
 
 import androidx.lifecycle.LiveData;
 
-
 import com.zlx.module_network.bean.ApiResponse;
 
 import java.lang.reflect.Type;
@@ -13,12 +12,7 @@ import retrofit2.CallAdapter;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-/**
- * @date: 2020\7\24 0024
- * @author: zlx
- * @email: 1170762202@qq.com
- * @description:
- */
+
 public class LiveDataCallAdapter<T> implements CallAdapter<T, LiveData<T>> {
 
     private Type mResponseType;

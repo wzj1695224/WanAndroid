@@ -3,10 +3,11 @@ package com.zlx.module_network.widget.popwindow;
 import android.os.Handler;
 import android.os.Looper;
 
+
+
+
 /**
- * Created by zlx on 2020/9/28 9:34
- * Email: 1170762202@qq.com
- * Description: 全局通用弹窗工具类
+ * 全局通用弹窗工具类
  */
 public class PopUtil {
 

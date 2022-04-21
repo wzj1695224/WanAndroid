@@ -3,9 +3,7 @@ package com.zlx.widget.fantasyslide;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by CaoDongping on 9/7/16.
- */
+
 
 class DefaultTransformer implements Transformer {
     private float maxTranslationX;

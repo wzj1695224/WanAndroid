@@ -26,12 +26,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 
-/**
- * FileName: ThreadUtils
- * Created by zlx on 2020/9/22 10:15
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class ThreadUtils {
 
     private static final Handler HANDLER = new Handler(Looper.getMainLooper());

@@ -14,10 +14,9 @@ import razerdp.basepopup.BasePopupWindow;
 import razerdp.util.animation.AnimationHelper;
 import razerdp.util.animation.TranslationConfig;
 
+
 /**
- * Created by zlx on 2020/9/28 9:10
- * Email: 1170762202@qq.com
- * Description: 全局通用弹窗
+ * 全局通用弹窗
  */
 public class CommonPop extends BasePopupWindow {
 

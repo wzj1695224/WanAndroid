@@ -8,6 +8,7 @@ import android.view.View;
 
 import java.lang.ref.WeakReference;
 
+
 public interface RevealAnimator{
 
     public void setClipOutlines(boolean clip);

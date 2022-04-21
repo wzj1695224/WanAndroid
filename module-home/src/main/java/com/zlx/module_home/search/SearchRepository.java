@@ -10,6 +10,7 @@ import com.zlx.module_network.factory.ApiCallback;
 
 import java.util.List;
 
+
 public class SearchRepository extends BaseModel {
     private SearchHistoryDao searchHistoryDao;
 

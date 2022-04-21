@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 
 import java.util.List;
 
+
 public interface IHiveMathUtils {
     /**
      * calculate a item's bounds that beside of current item .

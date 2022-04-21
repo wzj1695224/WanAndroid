@@ -4,12 +4,7 @@ import android.content.Context;
 
 import net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.ColorTransitionPagerTitleView;
 
-/**
- * FileName: ScaleTransitionPagerTitleView
- * Created by zlx on 2020/9/18 10:43
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class ScaleTransitionPagerTitleView extends ColorTransitionPagerTitleView {
 
     private TabSelectListener tabSelectListener;

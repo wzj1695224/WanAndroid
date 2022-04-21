@@ -10,11 +10,6 @@ import android.widget.LinearLayout;
 import com.zlx.widget.R;
 
 
-/**
-  * Created by zlx on 2020/9/25 10:33
-  * Email: 1170762202@qq.com
-  * Description: 
-*/
 public class SideBar extends LinearLayout {
     private int parentLayoutGravity;
     private boolean opened;

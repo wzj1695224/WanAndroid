@@ -22,12 +22,7 @@ import com.zlx.module_mine.databinding.AcScoreRankListBinding;
 
 import java.util.List;
 
-/**
- * FileName: ScoreRankListAc
- * Created by zlx on 2020/9/21 15:49
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class ScoreRankListAc extends BaseMvvmAc<AcScoreRankListBinding, ScoreRankViewModel> implements OnRefreshLoadMoreListener {
 
     RvAdapterScoreRankList adapterScoreRankList;

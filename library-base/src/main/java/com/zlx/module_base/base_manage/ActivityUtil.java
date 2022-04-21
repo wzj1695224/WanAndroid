@@ -3,14 +3,12 @@ package com.zlx.module_base.base_manage;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.Context;
+
 import java.util.Stack;
 
-/**
- * Created by zlx on 2017/6/8.
- */
 
 public class ActivityUtil {
-    private static final Stack<Activity> activityStack = new Stack<Activity>();
+    private static final Stack<Activity> activityStack = new Stack<>();
 
     /**
      * 添加Activity到堆栈

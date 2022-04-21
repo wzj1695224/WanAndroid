@@ -2,6 +2,7 @@ package com.zlx.widget.hivelayoutmanager;
 
 import androidx.annotation.IntDef;
 
+
 public class HiveConstants {
     static final int VERTICAL_ONE = 0;
     static final int VERTICAL_TWO = 2;

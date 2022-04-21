@@ -6,10 +6,10 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.MutableLiveData;
 
 import com.zlx.module_base.base_api.res_data.UserInfo;
-import com.zlx.module_base.database.MMkvHelper;
 import com.zlx.module_base.viewmodel.BaseViewModel;
 import com.zlx.module_network.bean.ApiResponse;
 import com.zlx.module_network.factory.ApiCallback;
+
 
 public class AccountRegisterViewModel extends BaseViewModel<AccountRegisterRepository> {
     public MutableLiveData<UserInfo> registerLiveData = new MutableLiveData<>();

@@ -33,11 +33,6 @@ import com.zlx.widget.bubblenavigation.listener.BubbleNavigationChangeListener;
 
 import java.util.ArrayList;
 
-/**
- * BubbleNavigationConstraintView
- *
- * @author Gaurav Kumar
- */
 
 public class BubbleNavigationConstraintView extends ConstraintLayout implements View.OnClickListener, IBubbleNavigation {
 

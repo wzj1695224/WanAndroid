@@ -2,11 +2,7 @@ package com.zlx.module_base.widget.shinebutton.interpolator;
 
 import androidx.annotation.NonNull;
 
-/**
- * Created by zlx on 2020/9/27 14:46
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class EasingProvider {
     static float get(@NonNull Ease ease, float elapsedTimeRate) {
         switch (ease) {

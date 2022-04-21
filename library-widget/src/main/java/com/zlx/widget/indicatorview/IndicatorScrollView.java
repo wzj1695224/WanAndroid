@@ -7,11 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.widget.NestedScrollView;
 
-/**
- * Created by zlx on 2020/9/29 10:48
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class IndicatorScrollView extends NestedScrollView implements NestedScrollView.OnScrollChangeListener {
 
     private OnScrollChangeListener onUserScrollChangeListener;

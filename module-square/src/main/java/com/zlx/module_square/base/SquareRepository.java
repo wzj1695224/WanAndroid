@@ -7,6 +7,7 @@ import com.zlx.module_network.factory.ApiCallback;
 
 import java.util.List;
 
+
 public class SquareRepository extends BaseModel {
 
     public void listTrees(ApiCallback<List<TreeListRes>> callback) {

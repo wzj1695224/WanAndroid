@@ -11,11 +11,7 @@ import com.alibaba.android.vlayout.layout.SingleLayoutHelper;
 import com.zlx.module_base.base_adapter.BaseViewHolder;
 import com.zlx.module_home.R;
 
-/**
- * Created by zlx on 2020/9/23 11:46
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class RvAdapterSearchClear extends DelegateAdapter.Adapter<BaseViewHolder> {
 
     @Override

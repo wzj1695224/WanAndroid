@@ -28,11 +28,7 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * ================================================
- * 修订历史：
- * ================================================
- */
+
 public class IOUtils {
 
     public static void closeQuietly(Closeable closeable) {

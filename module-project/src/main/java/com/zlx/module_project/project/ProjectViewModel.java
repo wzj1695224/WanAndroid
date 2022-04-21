@@ -16,6 +16,7 @@ import com.zlx.module_network.factory.ApiCallback;
 import java.util.AbstractMap;
 import java.util.List;
 
+
 public class ProjectViewModel extends BaseViewModel<ProjectRepository> {
     public MutableLiveData<List<ProjectListRes>> projectTabLiveData = new MutableLiveData<>();
     public MutableLiveData<AbstractMap.SimpleEntry<Boolean, List<ArticleBean>>> projectLiveData = new MutableLiveData<>();

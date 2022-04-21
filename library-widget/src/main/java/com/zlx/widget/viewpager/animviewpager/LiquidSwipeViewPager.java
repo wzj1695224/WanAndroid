@@ -10,11 +10,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import java.lang.reflect.Field;
 
-/**
- * Created by zlx on 2020/10/22 10:43
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class LiquidSwipeViewPager extends ViewPager {
     private int DEFAULT_SCROLLER_DURATION = 1000;
 

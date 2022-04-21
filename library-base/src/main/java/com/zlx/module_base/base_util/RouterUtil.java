@@ -2,7 +2,7 @@ package com.zlx.module_base.base_util;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.zlx.module_base.constant.RouterActivityPath;
-import com.zlx.module_base.constant.RouterFragmentPath;
+
 
 public class RouterUtil {
 

@@ -8,7 +8,6 @@ import com.franmontiel.persistentcookiejar.cache.SetCookieCache;
 import com.franmontiel.persistentcookiejar.persistence.SharedPrefsCookiePersistor;
 import com.zlx.library_common.provier.AppProvider;
 import com.zlx.module_network.factory.ApiCallAdapterFactory;
-import com.zlx.module_network.interceptor.HttpLoggingInterceptor;
 import com.zlx.module_network.interceptor.LogInterceptor;
 import com.zlx.module_network.service.ApiService;
 
@@ -20,9 +19,6 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 
-/**
- * Created by Zlx on 2017/12/12.
- */
 public class RetrofitCreateHelper {
     private static final int TIMEOUT_READ = 60;
     private static final int TIMEOUT_CONNECTION = 60;

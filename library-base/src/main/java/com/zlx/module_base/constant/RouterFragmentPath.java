@@ -1,11 +1,6 @@
 package com.zlx.module_base.constant;
 
-/**
- * @date: 2019\9\25 0025
- * @author: zlx
- * @email: 1170762202@qq.com
- * @description:
- */
+
 public class RouterFragmentPath {
 
     /**

@@ -14,9 +14,6 @@ import com.zlx.module_base.base_util.LogUtils;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
-/**
- * Created by zlx on 2017/5/23.
- */
 
 public abstract class BaseNavFg extends Fragment {
 

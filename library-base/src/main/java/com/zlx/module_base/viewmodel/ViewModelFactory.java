@@ -13,6 +13,7 @@ import com.zlx.module_base.base_ac.BaseModel;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
+
 public class ViewModelFactory extends ViewModelProvider.NewInstanceFactory {
     private static volatile ViewModelFactory INSTANCE;
     private final Application mApplication;

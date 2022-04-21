@@ -22,6 +22,7 @@ import com.zlx.module_base.event.EventHandlers;
 import com.zlx.module_web.R;
 import com.zlx.module_web.databinding.FgWebBinding;
 
+
 public class WebDialogFg extends DialogFragment {
 
     private String url;

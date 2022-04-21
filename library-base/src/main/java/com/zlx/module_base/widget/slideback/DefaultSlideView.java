@@ -24,11 +24,12 @@ import android.graphics.Path;
 
 import androidx.annotation.NonNull;
 
+
+
+
 /**
-  * Created by zlx on 2020/9/24 8:57
-  * Email: 1170762202@qq.com
-  * Description:  默认样式（弹性贝塞尔曲线+箭头）
-*/
+ * 默认样式（弹性贝塞尔曲线+箭头）
+ */
 public class DefaultSlideView implements ISlideView {
     private Path bezierPath;
     private Paint paint, arrowPaint;

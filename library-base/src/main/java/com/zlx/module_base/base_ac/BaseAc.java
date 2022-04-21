@@ -25,7 +25,6 @@ import com.kingja.loadsir.core.LoadService;
 import com.kingja.loadsir.core.LoadSir;
 import com.tbruyelle.rxpermissions2.RxPermissions;
 import com.zlx.module_base.R;
-import com.zlx.module_base.base_manage.ActivityUtil;
 import com.zlx.module_base.base_util.DoubleClickExitDetector;
 import com.zlx.module_base.base_util.InputTools;
 import com.zlx.module_base.base_util.LanguageUtil;
@@ -37,11 +36,8 @@ import com.zlx.module_base.loadsir.LoadingCallback;
 import com.zlx.module_base.widget.slideback.SlideBack;
 
 import butterknife.ButterKnife;
+;
 
-
-/**
- * Created by zlx on 2017/6/23.
- */
 
 public abstract class BaseAc extends AppCompatActivity implements INetView, IAcView {
 

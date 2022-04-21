@@ -4,9 +4,8 @@ import org.objectweb.asm.ClassVisitor;
 import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Opcodes;
 
+
 /**
- * @author gavin
- * @date 2019/2/18
  * lifecycle class visitor
  */
 public class LifecycleClassVisitor extends ClassVisitor implements Opcodes {
@@ -19,7 +18,7 @@ public class LifecycleClassVisitor extends ClassVisitor implements Opcodes {
 
     @Override
     public void visit(int version, int access, String name, String signature, String superName, String[] interfaces) {
-        System.out.println("LifecycleClassVisitor : visit -----> started ：" + name);
+        System.out.println("LifecycleClassVisitor : visit -----> started : " + name);
         this.mClassName = name;
         super.visit(version, access, name, signature, superName, interfaces);
     }

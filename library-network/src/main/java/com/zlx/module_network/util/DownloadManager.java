@@ -3,9 +3,7 @@ package com.zlx.module_network.util;
 import android.text.TextUtils;
 import android.util.Log;
 
-
 import androidx.annotation.NonNull;
-
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -18,9 +16,6 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-/**
- * Created by heavyrainlee on 20/02/2018.
- */
 
 public class DownloadManager {
 
@@ -100,11 +95,7 @@ public class DownloadManager {
         });
     }
 
-    /**
-     * @param saveDir
-     * @return
-     * @throws IOException 判断下载目录是否存在
-     */
+
     private String isExistDir(String saveDir) throws IOException {
         // 下载位置
         File downloadFile = new File(saveDir);

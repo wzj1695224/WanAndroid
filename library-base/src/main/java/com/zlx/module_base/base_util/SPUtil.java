@@ -7,12 +7,6 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Map;
 
-/**
-*@date: 2019\2\25 0025
-*@author: zlx
-*@description:
-*
-*/
 
 public class SPUtil {
     /**
@@ -134,8 +128,6 @@ public class SPUtil {
 
     /**
      * 创建一个解决SharedPreferencesCompat.apply方法的一个兼容类
-     *
-     * @author zhy
      */
     private static class SharedPreferencesCompat {
         private static final Method sApplyMethod = findApplyMethod();

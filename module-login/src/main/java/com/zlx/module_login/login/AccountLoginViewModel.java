@@ -11,6 +11,7 @@ import com.zlx.module_base.viewmodel.BaseViewModel;
 import com.zlx.module_network.bean.ApiResponse;
 import com.zlx.module_network.factory.ApiCallback;
 
+
 public class AccountLoginViewModel extends BaseViewModel<AccountLoginRepository> {
     public MutableLiveData<UserInfo> loginLiveData = new MutableLiveData<>();
 

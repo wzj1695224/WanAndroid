@@ -14,6 +14,7 @@ import com.zlx.module_network.factory.ApiCallback;
 import java.util.AbstractMap;
 import java.util.List;
 
+
 public class SquareListViewModel extends BaseTopBarViewModel<SquareListRepository> {
     public MutableLiveData<AbstractMap.SimpleEntry<Boolean, List<ArticleBean>>> squareLiveData = new MutableLiveData<>();
 

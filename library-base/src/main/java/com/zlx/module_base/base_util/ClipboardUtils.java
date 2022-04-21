@@ -6,9 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 
-/**
- * Created by Zlx on 2017/4/6.
- */
+
 public final class ClipboardUtils {
 
     private ClipboardUtils() {

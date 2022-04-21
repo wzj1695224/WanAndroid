@@ -1,12 +1,5 @@
 package com.zlx.module_network.util;
 
-/**
- * @date: 2019\3\22 0022
- * @author: zlx
- * @email: 1170762202@qq.com
- * @description:
- */
-
 import android.net.ParseException;
 import android.os.NetworkOnMainThreadException;
 import android.util.Log;
@@ -22,9 +15,7 @@ import java.util.Objects;
 
 import retrofit2.HttpException;
 
-/**
- * 异常处理
- */
+
 public class RxExceptionUtil {
     public static String exceptionHandler(Throwable t){
         String msg = "未知错误";

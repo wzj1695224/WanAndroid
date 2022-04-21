@@ -3,10 +3,7 @@ package com.zlx.plugin_lifecycle;
 import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Opcodes;
 
-/**
- * @author gavin
- * @date 2019/2/19
- */
+
 public class LifecycleOnCreateMethodVisitor extends MethodVisitor {
 
     public LifecycleOnCreateMethodVisitor(MethodVisitor mv) {
@@ -16,7 +13,7 @@ public class LifecycleOnCreateMethodVisitor extends MethodVisitor {
     @Override
     public void visitCode() {
         super.visitCode();
-        //方法执行前插入
+        // 方法执行前插入
         mv.visitLdcInsn("TAG");
         mv.visitTypeInsn(Opcodes.NEW, "java/lang/StringBuilder");
         mv.visitInsn(Opcodes.DUP);
@@ -34,7 +31,7 @@ public class LifecycleOnCreateMethodVisitor extends MethodVisitor {
 
     @Override
     public void visitInsn(int opcode) {
-        //方法执行后插入
+        // 方法执行后插入
         /*if (opcode == Opcodes.RETURN) {
             mv.visitLdcInsn("TAG");
             mv.visitTypeInsn(Opcodes.NEW, "java/lang/StringBuilder");

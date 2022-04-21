@@ -10,6 +10,7 @@ import com.zlx.module_network.bean.ApiResponse;
 import com.zlx.module_network.factory.ApiCallback;
 import com.zlx.module_network.widget.popwindow.PopUtil;
 
+
 public class ShareArticleViewModel extends BaseTopBarViewModel<ShareArticleRepository> {
 
     public MutableLiveData<Object> shareLiveData = new MutableLiveData<>();

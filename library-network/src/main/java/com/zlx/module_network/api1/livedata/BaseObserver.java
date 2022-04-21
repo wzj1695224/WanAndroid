@@ -3,6 +3,7 @@ package com.zlx.module_network.api1.livedata;
 import com.zlx.module_network.bean.ApiResponse;
 import com.zlx.module_network.widget.popwindow.PopUtil;
 
+
 public class BaseObserver<T> implements IBaseObserver<T> {
 
     private BaseObserverCallBack<T> baseObserverCallBack;

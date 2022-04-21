@@ -25,12 +25,12 @@ import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 import android.view.animation.Interpolator;
 
-import java.util.Arrays;
-
 import androidx.core.view.MotionEventCompat;
 import androidx.core.view.VelocityTrackerCompat;
 import androidx.core.view.ViewCompat;
 import androidx.core.widget.ScrollerCompat;
+
+import java.util.Arrays;
 
 /**
  * ViewDragHelper is a utility class for writing custom ViewGroups. It offers a number

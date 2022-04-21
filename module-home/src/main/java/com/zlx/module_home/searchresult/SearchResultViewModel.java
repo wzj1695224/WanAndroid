@@ -14,6 +14,7 @@ import com.zlx.module_network.factory.ApiCallback;
 import java.util.AbstractMap;
 import java.util.List;
 
+
 public class SearchResultViewModel extends BaseViewModel<SearchResultRepository> {
     public MutableLiveData<AbstractMap.SimpleEntry<Boolean, List<ArticleBean>>> articleLiveData = new MutableLiveData<>();
 

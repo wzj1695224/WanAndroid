@@ -27,11 +27,11 @@ import com.zlx.widget.indicatorview.IndicatorItem;
 import java.util.ArrayList;
 import java.util.List;
 
+
+
+
 /**
- * FileName: NavigationFg
- * Created by zlx on 2020/9/18 10:16
- * Email: 1170762202@qq.com
- * Description: 导航
+ * 导航
  */
 @Route(path = RouterFragmentPath.Square.PAGER_NAVIGATION)
 public class NavigationFg extends BaseMvvmFg<FgBaseSquareBinding, SquareViewModel> {

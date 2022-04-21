@@ -28,11 +28,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * FileName: SystemFg
- * Created by zlx on 2020/9/18 10:16
- * Email: 1170762202@qq.com
- * Description: 体系
+ * 体系
  */
+
+
+
 @Route(path = RouterFragmentPath.Square.PAGER_SYSTEM)
 public class SystemFg extends BaseMvvmFg<FgBaseSquareBinding, SquareViewModel> {
 

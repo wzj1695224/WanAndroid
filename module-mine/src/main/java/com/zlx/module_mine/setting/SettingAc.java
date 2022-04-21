@@ -13,12 +13,7 @@ import com.zlx.module_mine.databinding.AcSettingBinding;
 
 import java.util.Locale;
 
-/**
- * FileName: SettingAc
- * Created by zlx on 2020/9/22 9:52
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class SettingAc extends BaseMvvmAc<AcSettingBinding, SettingViewModel> {
 
     public static void launch(Context context) {

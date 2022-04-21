@@ -1,11 +1,6 @@
 package com.zlx.module_base.base_api.res_data;
 
 
-/**
- * Created by zlx on 2020/9/23 10:03
- * Email: 1170762202@qq.com
- * Description:
- */
 public class SearchBeanRes {
 
     /**

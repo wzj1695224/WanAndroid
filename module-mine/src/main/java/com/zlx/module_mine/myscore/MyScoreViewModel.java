@@ -13,6 +13,7 @@ import com.zlx.module_network.factory.ApiCallback;
 
 import java.util.AbstractMap;
 
+
 public class MyScoreViewModel extends BaseTopBarViewModel<MyScoreRepository> {
     public MutableLiveData<AbstractMap.SimpleEntry<Boolean, RankListRes>> scoreLiveData = new MutableLiveData<>();
 

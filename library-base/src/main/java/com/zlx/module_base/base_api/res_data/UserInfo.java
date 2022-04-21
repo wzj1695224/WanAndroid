@@ -5,12 +5,7 @@ import android.os.Parcelable;
 
 import java.util.List;
 
-/**
- * FileName: UserInfo
- * Created by zlx on 2020/9/21 15:04
- * Email: 1170762202@qq.com
- * Description: 用户信息
- */
+
 public class UserInfo implements Parcelable {
 
     /**

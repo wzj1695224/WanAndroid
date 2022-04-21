@@ -3,11 +3,7 @@ package com.zlx.widget.viewpager.animviewpager;
 import android.graphics.Path;
 import android.view.View;
 
-/**
- * Created by zlx on 2020/11/5 15:59
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class LiquidSwipeClipPathProvider extends ClipPathProvider {
     Float waveCenterY = 0f;
     Float initialHorizontalRadius = 0f;

@@ -8,6 +8,7 @@ import com.zlx.module_network.factory.ApiCallback;
 
 import java.util.List;
 
+
 public class PublicRepository extends BaseModel {
     public void unCollect(String id, ApiCallback<Object> callback) {
         ApiUtil.getArticleApi().unCollect(id).enqueue(callback);

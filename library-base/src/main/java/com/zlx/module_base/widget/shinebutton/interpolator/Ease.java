@@ -1,10 +1,6 @@
 package com.zlx.module_base.widget.shinebutton.interpolator;
 
-/**
- * Created by zlx on 2020/9/27 14:46
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public enum Ease {
     LINEAR,
     QUAD_IN,

@@ -19,10 +19,11 @@ import com.zlx.widget.CustomItemDecoration;
 
 import java.util.List;
 
+
+
+
 /**
- * Created by zlx on 2020/9/22 13:50
- * Email: 1170762202@qq.com
- * Description: 我的收藏
+ * 我的收藏
  */
 public class MyCollectAc extends BaseMvvmAc<AcMyCollectBinding, MyCollectViewModel> implements OnRefreshLoadMoreListener {
 

@@ -8,14 +8,7 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
 
-/**
- * @date: 2019\3\8 0008
- * @author: zlx
- * @email: 1170762202@qq.com
- * @description:
- */
 public class MyApp extends BaseApplication {
-
 
     @Override
     public void onCreate() {
@@ -30,6 +23,5 @@ public class MyApp extends BaseApplication {
         System.out.println("收到消息" + event.toString());
     }
 
-    ;
 
 }

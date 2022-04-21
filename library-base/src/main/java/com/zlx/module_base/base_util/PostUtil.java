@@ -6,12 +6,7 @@ import android.os.Looper;
 import com.kingja.loadsir.callback.Callback;
 import com.kingja.loadsir.core.LoadService;
 
-/**
- * FileName: PostUtil
- * Created by zlx on 2020/9/17 18:03
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class PostUtil{
         private static final int DELAY_TIME = 1000;
 

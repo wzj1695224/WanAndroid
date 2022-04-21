@@ -11,10 +11,11 @@ import com.zlx.module_mine.R;
 import com.zlx.module_mine.databinding.AcShareArticleBinding;
 import com.zlx.module_network.widget.popwindow.PopUtil;
 
+
+
+
 /**
- * Created by zlx on 2020/9/25 17:24
- * Email: 1170762202@qq.com
- * Description: 分享文章
+ * 分享文章
  */
 public class ShareArticleAc extends BaseMvvmAc<AcShareArticleBinding, ShareArticleViewModel> {
 

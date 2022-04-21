@@ -2,7 +2,6 @@ package com.zlx.module_network.service;
 
 import androidx.lifecycle.LiveData;
 
-
 import java.util.List;
 import java.util.Map;
 
@@ -22,6 +21,7 @@ import retrofit2.http.POST;
 import retrofit2.http.Part;
 import retrofit2.http.QueryMap;
 import retrofit2.http.Url;
+
 
 public interface ApiService {
 

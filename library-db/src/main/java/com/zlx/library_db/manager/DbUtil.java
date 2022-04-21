@@ -8,13 +8,6 @@ import androidx.room.migration.Migration;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
 
-
-/**
- * @date: 2019\9\4 0004
- * @author: zlx
- * @email: 1170762202@qq.com
- * @description:
- */
 public class DbUtil {
     private AppDataBase appDataBase;
 

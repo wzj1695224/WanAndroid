@@ -15,9 +15,7 @@ import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * Created by Zlx on 2017/12/12.
- */
+
 public class RetrofitCreateLiveDataHelper {
     private static final int TIMEOUT_READ = 60;
     private static final int TIMEOUT_CONNECTION = 60;

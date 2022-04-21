@@ -12,12 +12,7 @@ import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @date: 2019\10\10 0010
- * @author: zlx
- * @email: 1170762202@qq.com
- * @description:
- */
+
 public class LiveDataBus {
     private final Map<String, BusMutableLiveData<Object>> bus;
 

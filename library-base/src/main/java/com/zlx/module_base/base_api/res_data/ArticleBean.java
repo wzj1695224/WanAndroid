@@ -7,11 +7,11 @@ import com.zlx.module_base.constant.C;
 
 import java.util.List;
 
+
+
+
 /**
- * FileName: ArticleBean
- * Created by zlx on 2020/9/18 15:01
- * Email: 1170762202@qq.com
- * Description: 文章实体
+ * 文章实体
  */
 public class ArticleBean implements MultiItemEntity {
     /**

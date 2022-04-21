@@ -1,5 +1,7 @@
 package com.zlx.module_project.project;
 
+import static android.content.ContentValues.TAG;
+
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -28,7 +30,6 @@ import com.zlx.widget.slidinguppanel.SlidingUpPanelLayout;
 
 import java.util.List;
 
-import static android.content.ContentValues.TAG;
 
 @Route(path = RouterFragmentPath.Project.PAGER_PROJECT)
 public class ProjectFg extends BaseMvvmFg<FgProjectBinding, ProjectViewModel> implements OnRefreshLoadMoreListener {

@@ -13,7 +13,6 @@ import androidx.core.app.ActivityOptionsCompat;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.vlayout.DelegateAdapter;
 import com.alibaba.android.vlayout.VirtualLayoutManager;
-import com.scwang.smart.refresh.header.listener.OnTwoLevelListener;
 import com.scwang.smart.refresh.layout.api.RefreshHeader;
 import com.scwang.smart.refresh.layout.api.RefreshLayout;
 import com.scwang.smart.refresh.layout.constant.RefreshState;
@@ -34,12 +33,7 @@ import com.zlx.module_network.util.LogUtil;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @date: 2019\3\5 0005
- * @author: zlx
- * @email: 1170762202@qq.com
- * @description:
- */
+
 @Route(path = RouterFragmentPath.Home.PAGER_HOME)
 public class HomeFg extends BaseMvvmFg<FgHomeBinding, HomeViewModel> {
 

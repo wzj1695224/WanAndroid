@@ -7,10 +7,9 @@ import com.zlx.module_base.viewmodel.BaseViewModel;
 import com.zlx.module_home.R;
 import com.zlx.module_home.databinding.AcHomeBinding;
 
+
 /**
- * Created by zlx on 2020/9/30 12:27
- * Email: 1170762202@qq.com
- * Description: module单独运行
+ * module单独运行
  */
 public class HomeAc extends BaseMvvmAc<AcHomeBinding, BaseViewModel> {
 

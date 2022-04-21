@@ -10,11 +10,6 @@ import com.zlx.module_mine.R;
 import com.zlx.module_mine.databinding.AcAboutAuthorBinding;
 
 
-/**
- * Created by zlx on 2020/9/22 17:25
- * Email: 1170762202@qq.com
- * Description:
- */
 public class AboutAuthorAc extends BaseMvvmAc<AcAboutAuthorBinding,AboutAuthorViewModel> {
 
     public static void launch(Context context) {

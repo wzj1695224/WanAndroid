@@ -1,10 +1,7 @@
 package com.zlx.module_base.base_api.module;
 
-import androidx.lifecycle.LiveData;
-
 import com.zlx.module_base.base_api.res_data.RankListRes;
 import com.zlx.module_base.base_api.res_data.UserInfo;
-import com.zlx.module_network.bean.ApiResponse;
 import com.zlx.module_network.factory.ApiCall;
 
 import retrofit2.http.GET;

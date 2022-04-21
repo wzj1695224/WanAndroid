@@ -21,6 +21,7 @@ import com.zlx.module_network.factory.ApiCallback;
 
 import java.lang.ref.WeakReference;
 
+
 public class MineViewModel extends BaseViewModel<MineRepository> {
 
     public MutableLiveData<UserInfo> userInfoLiveData = new MutableLiveData<>();

@@ -10,18 +10,13 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
 
-
 import com.zlx.module_base.widget.shinebutton.interpolator.Ease;
 import com.zlx.module_base.widget.shinebutton.interpolator.EasingInterpolator;
 import com.zlx.module_base.widget.shinebutton.listener.SimpleAnimatorListener;
 
 import java.util.Random;
 
-/**
-  * Created by zlx on 2020/9/27 14:53
-  * Email: 1170762202@qq.com
-  * Description:
-*/
+
 public class ShineView extends View {
     private static final String TAG = "ShineView";
 

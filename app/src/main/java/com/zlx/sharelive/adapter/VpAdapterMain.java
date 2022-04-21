@@ -6,12 +6,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.zlx.sharelive.impl.TabPagerListener;
 
-/**
- * @date: 2019\3\5 0005
- * @author: zlx
- * @email: 1170762202@qq.com
- * @description:
- */
+
 public class VpAdapterMain extends FragmentPagerAdapter {
 
     private TabPagerListener listener;

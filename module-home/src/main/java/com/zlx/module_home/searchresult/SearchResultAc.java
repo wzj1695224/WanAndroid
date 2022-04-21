@@ -23,11 +23,7 @@ import com.zlx.module_home.databinding.AcSearchResultBinding;
 
 import java.util.List;
 
-/**
- * Created by zlx on 2020/9/23 14:44
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class SearchResultAc extends BaseMvvmAc<AcSearchResultBinding, SearchResultViewModel> implements OnRefreshLoadMoreListener {
 
     private RvAdapterArticleList adapterArticleList;

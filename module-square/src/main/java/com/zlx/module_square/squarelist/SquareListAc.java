@@ -20,11 +20,11 @@ import com.zlx.widget.CustomItemDecoration;
 
 import java.util.List;
 
+
+
+
 /**
- * FileName: SquareListAc
- * Created by zlx on 2020/9/18 14:47
- * Email: 1170762202@qq.com
- * Description:广场列表
+ * 广场列表
  */
 @Route(path = RouterActivityPath.Square.PAGER_SQUARE_LIST)
 public class SquareListAc extends BaseMvvmAc<AcSquareListBinding, SquareListViewModel> implements OnRefreshLoadMoreListener {

@@ -2,11 +2,11 @@ package com.zlx.module_base.base_api.res_data;
 
 import java.util.List;
 
+
+
+
 /**
- * FileName: TreeListRes
- * Created by zlx on 2020/9/18 13:59
- * Email: 1170762202@qq.com
- * Description: 体系&导航
+ * 体系&导航
  */
 public class TreeListRes implements Cloneable{
 

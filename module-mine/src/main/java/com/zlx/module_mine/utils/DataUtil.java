@@ -4,11 +4,7 @@ import com.zlx.module_mine.bean.OpenSourcePro;
 
 import java.util.ArrayList;
 
-/**
- * Created by zlx on 2020/9/22 17:17
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class DataUtil {
 
     public static ArrayList<OpenSourcePro> getPros(){

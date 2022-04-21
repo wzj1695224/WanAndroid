@@ -5,9 +5,7 @@ import android.view.View;
 
 import androidx.drawerlayout.widget.DrawerLayout;
 
-/**
- * Created by CaoDongping on 9/7/16.
- */
+
 class GravityUtil {
 
     static boolean isLeft(int gravity) {

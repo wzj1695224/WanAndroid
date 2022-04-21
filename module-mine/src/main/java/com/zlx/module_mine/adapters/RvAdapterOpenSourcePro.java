@@ -8,11 +8,7 @@ import com.zlx.module_mine.bean.OpenSourcePro;
 
 import org.jetbrains.annotations.NotNull;
 
-/**
- * Created by zlx on 2020/9/22 17:11
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class RvAdapterOpenSourcePro extends BaseQuickAdapter<OpenSourcePro, BaseViewHolder> {
 
     public RvAdapterOpenSourcePro() {

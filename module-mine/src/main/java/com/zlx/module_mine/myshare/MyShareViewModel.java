@@ -13,6 +13,7 @@ import com.zlx.module_network.factory.ApiCallback;
 
 import java.util.AbstractMap;
 
+
 public class MyShareViewModel extends BaseViewModel<MyShareRepository> {
     public MutableLiveData<AbstractMap.SimpleEntry<Boolean, MyShareBean>> shareLiveData = new MutableLiveData<>();
 

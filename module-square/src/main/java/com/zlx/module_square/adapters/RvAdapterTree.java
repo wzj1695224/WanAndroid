@@ -16,11 +16,11 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+
+
+
 /**
- * FileName: RvAdapterTree
- * Created by zlx on 2020/9/18 11:04
- * Email: 1170762202@qq.com
- * Description: 流式布局
+ * 流式布局
  */
 public class RvAdapterTree extends BaseRecycleAdapter<TreeListRes> {
 

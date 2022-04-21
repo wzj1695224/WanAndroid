@@ -32,7 +32,6 @@ import android.view.ViewTreeObserver;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-
 import androidx.annotation.ColorInt;
 import androidx.palette.graphics.Palette;
 

@@ -8,11 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by zlx on 2020/9/23 11:47
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class BaseViewHolder extends RecyclerView.ViewHolder {
     private Map<Integer, View> mViewMap;
 

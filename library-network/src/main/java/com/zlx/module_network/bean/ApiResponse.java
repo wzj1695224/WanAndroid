@@ -1,11 +1,6 @@
 package com.zlx.module_network.bean;
 
-/**
- * @date: 2020\7\24 0024
- * @author: zlx
- * @email: 1170762202@qq.com
- * @description:
- */
+
 public class ApiResponse<T> {
 
     public static final int CODE_SUCCESS = 0;

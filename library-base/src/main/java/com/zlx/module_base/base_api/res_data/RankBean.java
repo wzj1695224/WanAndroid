@@ -1,11 +1,6 @@
 package com.zlx.module_base.base_api.res_data;
 
-/**
- * FileName: RankBean
- * Created by zlx on 2020/9/22 9:02
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class RankBean {
     private String coinCount;
     private long date;

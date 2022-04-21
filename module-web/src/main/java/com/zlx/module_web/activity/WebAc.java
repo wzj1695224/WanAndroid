@@ -22,6 +22,7 @@ import com.zlx.module_web.WebLayout;
 import com.zlx.module_web.databinding.AcWebBinding;
 import com.zlx.module_web.fragment.WebDialogFg;
 
+
 @Route(path = RouterActivityPath.Web.PAGER_WEB)
 public class WebAc extends BaseMvvmAc<AcWebBinding, WebViewModel> {
 

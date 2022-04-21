@@ -2,6 +2,7 @@ package com.zlx.widget.hivelayoutmanager;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+
 public abstract class HiveLayoutHelper {
     static final int HORIZONTAL = 0;
 

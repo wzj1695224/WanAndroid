@@ -11,3 +11,13 @@
 /build
 /captures
 .externalNativeBuild
+
+
+.idea/*
+!.idea/codeStyles
+!.idea/dictionaries
+!.idea/inspectionProfiles
+
+
+/hs_err_pid*.log
+/replay_pid*.log

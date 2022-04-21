@@ -26,11 +26,12 @@ import android.widget.FrameLayout;
 
 import androidx.annotation.NonNull;
 
+
+
+
 /**
-  * Created by zlx on 2020/9/24 8:58
-  * Email: 1170762202@qq.com
-  * Description: 滑动手势控制等
-*/
+ * 滑动手势控制等
+ */
 @SuppressLint("ViewConstructor")
 public class SlideControlLayout extends FrameLayout {
     private final SlideBackView slideBackView;

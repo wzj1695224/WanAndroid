@@ -15,25 +15,9 @@ import com.zlx.module_base.constant.RouterFragmentPath;
 import com.zlx.module_base.database.MMkvHelper;
 import com.zlx.module_mine.BR;
 import com.zlx.module_mine.R;
-import com.zlx.module_mine.R2;
-import com.zlx.module_mine.aboutauthor.AboutAuthorAc;
-import com.zlx.module_mine.scorerank.ScoreRankListAc;
 import com.zlx.module_mine.databinding.FgMineBinding;
-import com.zlx.module_mine.mycollect.MyCollectAc;
-import com.zlx.module_mine.myscore.MyScoreAc;
-import com.zlx.module_mine.myshare.MyShareAc;
-import com.zlx.module_mine.opensource.OpenSourceAc;
 
-import butterknife.OnClick;
 
-/**
- * Copyright (C)
- * FileName: MineFg
- * Author: Zlx
- * Email: 1170762202@qq.com
- * Date: 2020/9/17 11:30
- * Description: 我的
- */
 @Route(path = RouterFragmentPath.Mine.PAGER_MINE)
 public class MineFg extends BaseMvvmFg<FgMineBinding, MineViewModel> {
 

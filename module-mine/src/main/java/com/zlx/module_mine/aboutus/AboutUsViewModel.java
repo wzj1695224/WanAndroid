@@ -8,6 +8,7 @@ import com.zlx.module_base.base_ac.BaseTopBarViewModel;
 import com.zlx.module_base.base_util.RouterUtil;
 import com.zlx.module_base.constant.C;
 
+
 public class AboutUsViewModel extends BaseTopBarViewModel {
     public AboutUsViewModel(@NonNull Application application) {
         super(application);

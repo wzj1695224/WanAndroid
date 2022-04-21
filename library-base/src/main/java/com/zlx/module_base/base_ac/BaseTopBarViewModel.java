@@ -7,6 +7,7 @@ import androidx.databinding.ObservableField;
 
 import com.zlx.module_base.viewmodel.BaseViewModel;
 
+
 public class BaseTopBarViewModel<M extends BaseModel> extends BaseViewModel<M> {
     /**
      * 兼容databinding，去泛型化

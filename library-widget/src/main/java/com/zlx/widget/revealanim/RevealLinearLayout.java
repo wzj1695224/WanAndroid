@@ -7,6 +7,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
 
+
 public class RevealLinearLayout extends LinearLayout implements RevealAnimator{
 
     Path mRevealPath;

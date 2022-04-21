@@ -20,11 +20,7 @@ import android.app.Activity;
 
 import androidx.annotation.NonNull;
 
-/**
-  * Created by zlx on 2020/9/24 8:58
-  * Email: 1170762202@qq.com
-  * Description:
-*/
+
 public class SlideBack {
     private ISlideView slideView;   //样式
     private OnSlide onSlide;        //滑动监听

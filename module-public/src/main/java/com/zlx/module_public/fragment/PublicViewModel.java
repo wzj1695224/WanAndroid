@@ -15,6 +15,7 @@ import com.zlx.module_network.factory.ApiCallback;
 import java.util.AbstractMap;
 import java.util.List;
 
+
 public class PublicViewModel extends BaseViewModel<PublicRepository> {
     public MutableLiveData<AbstractMap.SimpleEntry<Boolean, List<ArticleBean>>> publicLiveData = new MutableLiveData<>();
     public MutableLiveData<List<PublicAuthorListRes>> authorLiveData = new MutableLiveData<>();

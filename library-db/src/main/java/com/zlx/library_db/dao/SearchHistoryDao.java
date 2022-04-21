@@ -9,11 +9,7 @@ import com.zlx.library_db.entity.SearchHistoryEntity;
 
 import java.util.List;
 
-/**
- * Created by zlx on 2020/9/23 10:32
- * Email: 1170762202@qq.com
- * Description:
- */
+
 @Dao
 public interface SearchHistoryDao {
 

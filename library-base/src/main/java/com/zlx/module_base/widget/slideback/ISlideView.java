@@ -4,6 +4,7 @@ package com.zlx.module_base.widget.slideback;
 
 import android.graphics.Canvas;
 
+
 public interface ISlideView {
         /**
          * 是否可以垂直滑动

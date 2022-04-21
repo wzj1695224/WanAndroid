@@ -7,6 +7,7 @@ import com.zlx.module_project.R;
 
 import org.jetbrains.annotations.NotNull;
 
+
 public class RvAdapterTitle extends BaseQuickAdapter<ProjectListRes, BaseViewHolder> {
 
 

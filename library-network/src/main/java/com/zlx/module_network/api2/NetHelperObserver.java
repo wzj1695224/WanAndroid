@@ -13,6 +13,7 @@ import io.reactivex.Observer;
 import io.reactivex.annotations.NonNull;
 import io.reactivex.disposables.Disposable;
 
+
 public class NetHelperObserver<T extends ApiResponse> implements Observer<T>, LifecycleObserver {
 
     private final NetCallback<T> mCallback;

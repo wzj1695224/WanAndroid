@@ -20,11 +20,11 @@ import com.zlx.module_base.base_api.res_data.BannerRes;
 import com.zlx.module_home.R;
 import com.zlx.module_home.R2;
 
-
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+
 
 public class HomeBannerAdapter extends DelegateAdapter.Adapter<HomeBannerAdapter.ViewHolder> {
 

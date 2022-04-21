@@ -15,6 +15,7 @@ import com.zlx.module_network.factory.ApiCallback;
 import java.util.AbstractMap;
 import java.util.List;
 
+
 public class HomeViewModel extends BaseViewModel<HomeRepository> {
     public MutableLiveData<AbstractMap.SimpleEntry<Boolean, List<ArticleBean>>> liveData = new MutableLiveData<>();
     public MutableLiveData<List<BannerRes>> bannerLiveData = new MutableLiveData<>();

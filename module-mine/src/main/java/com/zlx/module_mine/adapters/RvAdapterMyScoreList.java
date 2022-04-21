@@ -23,12 +23,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * FileName: RvAdapterMyScoreHeader
- * Created by zlx on 2020/9/22 9:11
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class RvAdapterMyScoreList extends DelegateAdapter.Adapter<RvAdapterMyScoreList.ViewHolder> {
 
 

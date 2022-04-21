@@ -17,7 +17,6 @@ import androidx.annotation.NonNull;
 
 /**
  * 背景视图,根据设定的 color 以及 y 位移绘制曲线背景。
- * Created by CaoDongping on 9/6/16.
  */
 class SideBarBgView extends View {
     private Paint paint;

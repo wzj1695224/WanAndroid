@@ -10,6 +10,7 @@ import io.reactivex.Observable;
 import io.reactivex.functions.BiFunction;
 import io.reactivex.functions.Function;
 
+
 public class RetryHandler<T> implements Function<Observable<Throwable>, Observable<T>> {
 
     private int retryCount;

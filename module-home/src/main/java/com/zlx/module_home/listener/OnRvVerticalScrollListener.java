@@ -9,6 +9,7 @@ import android.view.animation.DecelerateInterpolator;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+
 public class OnRvVerticalScrollListener extends RecyclerView.OnScrollListener {
 
     private View top;

@@ -2,7 +2,6 @@ package com.zlx.module_network.interceptor;
 
 import android.util.Log;
 
-
 import com.zlx.module_network.util.LogUtil;
 
 import java.io.IOException;
@@ -17,12 +16,6 @@ import okhttp3.Response;
 import okio.Buffer;
 
 
-/**
- * date: 2019\6\11 0011
- * author: zlx
- * email: 1170762202@qq.com
- * description: log 拦截
- */
 public class LogInterceptor implements Interceptor {
     private String TAG = "LogInterceptor";
 

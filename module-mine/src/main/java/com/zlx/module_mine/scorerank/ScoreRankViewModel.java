@@ -6,7 +6,6 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.MutableLiveData;
 
 import com.zlx.module_base.base_ac.BaseTopBarViewModel;
-import com.zlx.module_base.base_api.res_data.ArticleBean;
 import com.zlx.module_base.base_api.res_data.RankBean;
 import com.zlx.module_base.base_api.res_data.RankListRes;
 import com.zlx.module_mine.R;
@@ -15,6 +14,7 @@ import com.zlx.module_network.factory.ApiCallback;
 
 import java.util.AbstractMap;
 import java.util.List;
+
 
 public class ScoreRankViewModel extends BaseTopBarViewModel<ScoreRankRepository> {
     public MutableLiveData<AbstractMap.SimpleEntry<Boolean, List<RankBean>>> scoreRankLiveData = new MutableLiveData<>();

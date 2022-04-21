@@ -1,17 +1,16 @@
 package com.zlx.module_base.base_ac;
 
 import android.os.Bundle;
-import android.view.View;
 
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.zlx.module_base.viewmodel.BaseViewModel;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
+
 
 public abstract class BaseMvvmAc<V extends ViewDataBinding, VM extends BaseViewModel> extends BaseAc {
 

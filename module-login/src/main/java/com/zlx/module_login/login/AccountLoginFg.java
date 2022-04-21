@@ -13,18 +13,14 @@ import com.zlx.module_base.base_fg.BaseMvvmFg;
 import com.zlx.module_base.event.EventHandlers;
 import com.zlx.module_login.BR;
 import com.zlx.module_login.R;
-import com.zlx.module_login.R2;
 import com.zlx.module_login.databinding.FgAccountLoginBinding;
-import com.zlx.module_login.register.AccountRegisterFg;
 import com.zlx.module_network.widget.popwindow.PopUtil;
 
-import butterknife.OnClick;
+
+
 
 /**
- * FileName: AccountLoginFg
- * Created by zlx on 2020/9/21 14:54
- * Email: 1170762202@qq.com
- * Description: 账号登录
+ * 账号登录
  */
 public class AccountLoginFg extends BaseMvvmFg<FgAccountLoginBinding, AccountLoginViewModel> {
 

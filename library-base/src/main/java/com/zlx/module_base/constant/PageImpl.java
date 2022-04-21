@@ -1,10 +1,6 @@
 package com.zlx.module_base.constant;
 
-/**
- * Created by zlx on 2020/9/23 14:53
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class PageImpl {
     public int page = 1;
 

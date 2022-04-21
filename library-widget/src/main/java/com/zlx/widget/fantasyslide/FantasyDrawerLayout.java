@@ -5,14 +5,12 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
+import androidx.drawerlayout.widget.DrawerLayout;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import androidx.drawerlayout.widget.DrawerLayout;
 
-/**
- * Created by CaoDongping on 9/6/16.
- */
 public class FantasyDrawerLayout extends DrawerLayout implements DrawerLayout.DrawerListener {
     private SideBarWithBg leftSideBar;
     private SideBarWithBg rightSideBar;

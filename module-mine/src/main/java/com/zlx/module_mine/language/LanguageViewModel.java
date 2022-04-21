@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
+
 public class LanguageViewModel extends BaseTopBarViewModel {
     public MutableLiveData<List<LanguageBean>> languageLiveData = new MutableLiveData<>();
 

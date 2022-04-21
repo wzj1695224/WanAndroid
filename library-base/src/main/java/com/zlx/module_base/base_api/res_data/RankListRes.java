@@ -2,11 +2,11 @@ package com.zlx.module_base.base_api.res_data;
 
 import java.util.List;
 
+
+
+
 /**
- * FileName: RankListRes
- * Created by zlx on 2020/9/21 15:52
- * Email: 1170762202@qq.com
- * Description: 积分排行版
+ * 积分排行版
  */
 public class RankListRes {
 

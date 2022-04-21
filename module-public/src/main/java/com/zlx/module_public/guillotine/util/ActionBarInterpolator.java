@@ -2,6 +2,7 @@ package com.zlx.module_public.guillotine.util;
 
 import android.animation.TimeInterpolator;
 
+
 public class ActionBarInterpolator implements TimeInterpolator {
 
     private static final float FIRST_BOUNCE_PART = 0.375f;

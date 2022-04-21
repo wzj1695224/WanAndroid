@@ -30,9 +30,6 @@ import com.zlx.module_mine.utils.AnimatorUtil;
 
 /**
  * <p>下拉时显示FAB，上拉隐藏，留出更多位置给用户。</p>
- * Created on 2016/12/1.
- *
- * @author xujun
  */
 public class ScaleDownShowBehavior extends FloatingActionButton.Behavior {
     /**

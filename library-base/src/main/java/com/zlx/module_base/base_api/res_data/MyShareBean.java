@@ -1,10 +1,6 @@
 package com.zlx.module_base.base_api.res_data;
 
-/**
- * Created by zlx on 2020/9/25 17:21
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class MyShareBean {
     /**
      * coinInfo : {"coinCount":13582,"level":136,"rank":"4","userId":2,"username":"x**oyang"}

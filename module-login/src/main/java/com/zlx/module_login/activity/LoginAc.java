@@ -9,12 +9,7 @@ import com.zlx.module_base.viewmodel.BaseViewModel;
 import com.zlx.module_login.R;
 import com.zlx.module_login.databinding.AcLoginBinding;
 
-/**
- * FileName: LoginAc
- * Created by zlx on 2020/9/21 13:59
- * Email: 1170762202@qq.com
- * Description:
- */
+
 @Route(path = RouterActivityPath.Login.PAGER_LOGIN)
 public class LoginAc extends BaseMvvmAc<AcLoginBinding, BaseViewModel> {
 

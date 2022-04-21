@@ -5,12 +5,6 @@ import android.app.Application;
 import android.util.Log;
 
 
-/**
- * FileName: AppProvider
- * Created by zlx on 2020/9/22 10:17
- * Email: 1170762202@qq.com
- * Description:
- */
 public class AppProvider {
     public static final String TAG = "AppProvider";
     @SuppressLint("StaticFieldLeak")

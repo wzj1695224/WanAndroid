@@ -8,20 +8,15 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import com.tencent.mmkv.MMKV;
+import com.zlx.module_base.base_api.res_data.UserInfo;
 import com.zlx.module_base.base_util.LogUtils;
 import com.zlx.module_base.constant.C;
-import com.zlx.module_base.base_api.res_data.UserInfo;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-/**
- * FileName: MMkvHelper
- * Created by zlx on 2020/9/21 14:40
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class MMkvHelper {
     private final Gson mGson = new Gson();
 

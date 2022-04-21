@@ -24,7 +24,6 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.LinearLayout;
 
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
@@ -32,11 +31,6 @@ import com.zlx.widget.bubblenavigation.listener.BubbleNavigationChangeListener;
 
 import java.util.ArrayList;
 
-/**
- * BubbleNavigationLinearView
- *
- * @author Gaurav Kumar
- */
 
 @SuppressWarnings("unused")
 public class BubbleNavigationLinearView extends LinearLayout implements View.OnClickListener, IBubbleNavigation {

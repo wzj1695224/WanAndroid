@@ -2,11 +2,7 @@ package com.zlx.module_mine.bean;
 
 import java.util.Locale;
 
-/**
- * Created by zlx on 2021/1/5 15:38
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class LanguageBean {
     private Locale locale;
     private String desc;

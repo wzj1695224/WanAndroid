@@ -1,7 +1,6 @@
 package com.zlx.library_db.entity;
 
 import androidx.annotation.NonNull;
-import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.Ignore;
 import androidx.room.Index;
@@ -9,11 +8,7 @@ import androidx.room.PrimaryKey;
 
 import java.util.Date;
 
-/**
- * Created by zlx on 2020/9/23 10:29
- * Email: 1170762202@qq.com
- * Description: 搜索历史
- */
+
 @Entity(indices = {@Index(value = "name", unique = true)})
 public class SearchHistoryEntity {
 

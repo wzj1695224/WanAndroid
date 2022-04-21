@@ -6,12 +6,7 @@ import android.view.View;
 import com.kingja.loadsir.callback.Callback;
 import com.zlx.module_base.R;
 
-/**
- * FileName: LoadingCallback
- * Created by zlx on 2020/9/17 16:52
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class LoadingCallback extends Callback {
 
 

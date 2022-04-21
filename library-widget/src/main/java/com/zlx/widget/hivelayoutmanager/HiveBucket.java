@@ -1,5 +1,6 @@
 package com.zlx.widget.hivelayoutmanager;
 
+
 public class HiveBucket {
     final static int BITS_PER_WORD = Long.SIZE;
 

@@ -16,11 +16,11 @@ import com.zlx.module_login.R;
 import com.zlx.module_login.databinding.FgAccountRegisterBinding;
 import com.zlx.module_network.widget.popwindow.PopUtil;
 
+
+
+
 /**
- * FileName: AccountLoginFg
- * Created by zlx on 2020/9/21 14:54
- * Email: 1170762202@qq.com
- * Description: 账号注册
+ * 账号注册
  */
 public class AccountRegisterFg extends BaseMvvmFg<FgAccountRegisterBinding, AccountRegisterViewModel> {
 

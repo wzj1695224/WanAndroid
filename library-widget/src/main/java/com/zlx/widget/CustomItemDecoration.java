@@ -17,12 +17,7 @@ import org.jetbrains.annotations.NotNull;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-/**
- * FileName: CustomItemDecoration
- * Created by zlx on 2020/9/18 16:42
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class CustomItemDecoration extends RecyclerView.ItemDecoration {
 //    public static final int HORIZONTAL_LIST = LinearLayoutManager.HORIZONTAL;
 //

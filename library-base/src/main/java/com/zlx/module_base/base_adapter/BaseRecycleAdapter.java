@@ -15,9 +15,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by zlx on 2017/5/24.
- */
 
 public abstract class BaseRecycleAdapter<T> extends
         RecyclerView.Adapter<BaseRecycleAdapter.BaseViewHolder> {

@@ -20,15 +20,14 @@ import android.view.accessibility.AccessibilityEvent;
 import android.view.animation.AnimationUtils;
 import android.view.animation.Interpolator;
 
-
-
-import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
-
 import androidx.core.view.MotionEventCompat;
 import androidx.core.view.ViewCompat;
 
 import com.zlx.widget.R;
+
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
+
 
 public class SlidingUpPanelLayout extends ViewGroup {
 

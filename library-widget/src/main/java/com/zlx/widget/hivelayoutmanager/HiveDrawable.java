@@ -15,8 +15,6 @@ import android.util.Log;
 import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 
-import com.zlx.widget.R;
-
 
 public class HiveDrawable extends Drawable {
 

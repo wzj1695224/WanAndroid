@@ -10,8 +10,8 @@ import com.alibaba.android.vlayout.DelegateAdapter;
 import com.alibaba.android.vlayout.LayoutHelper;
 import com.alibaba.android.vlayout.layout.LinearLayoutHelper;
 import com.google.android.flexbox.FlexboxLayout;
-import com.zlx.module_base.base_api.res_data.SearchBeanRes;
 import com.zlx.module_base.base_adapter.BaseViewHolder;
+import com.zlx.module_base.base_api.res_data.SearchBeanRes;
 import com.zlx.module_home.R;
 import com.zlx.module_home.bean.SearchBean;
 
@@ -20,11 +20,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-/**
- * Created by zlx on 2020/9/23 11:54
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class RvAdapterSearchHot extends DelegateAdapter.Adapter<BaseViewHolder> {
     private Queue<AppCompatTextView> mFlexItemTextViewCaches = new LinkedList<>();
     private LayoutInflater layoutInflater = null;

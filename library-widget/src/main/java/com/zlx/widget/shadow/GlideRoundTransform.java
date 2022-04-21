@@ -20,6 +20,7 @@ import com.bumptech.glide.load.resource.bitmap.BitmapResource;
 
 import java.security.MessageDigest;
 
+
 public class GlideRoundTransform implements Transformation<Bitmap> {
     private BitmapPool mBitmapPool;
 

@@ -3,11 +3,7 @@ package com.zlx.module_base.base_util;
 import android.os.Handler;
 import android.os.Looper;
 
-/**
- * Created by zlx on 2020/10/9 17:31
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class NeverCrashHelper {
     private CrashHandler mCrashHandler;
 

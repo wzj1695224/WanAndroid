@@ -14,6 +14,7 @@ import com.zlx.module_network.factory.ApiCallback;
 
 import java.util.List;
 
+
 public class SearchViewModel extends BaseViewModel<SearchRepository> {
     public MutableLiveData<List<SearchBeanRes>> hotLiveData = new MutableLiveData<>();
     public MutableLiveData<List<SearchHistoryEntity>> localLiveData = new MutableLiveData<>();

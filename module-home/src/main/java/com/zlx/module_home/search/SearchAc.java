@@ -6,7 +6,6 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
-import android.widget.TextView;
 
 import androidx.core.app.ActivityOptionsCompat;
 import androidx.core.util.Pair;
@@ -14,14 +13,12 @@ import androidx.lifecycle.Observer;
 
 import com.alibaba.android.vlayout.DelegateAdapter;
 import com.alibaba.android.vlayout.VirtualLayoutManager;
-import com.zlx.library_db.entity.SearchHistoryEntity;
 import com.zlx.module_base.base_ac.BaseMvvmAc;
 import com.zlx.module_base.base_api.res_data.SearchBeanRes;
 import com.zlx.module_base.base_util.InputTools;
 import com.zlx.module_base.event.EventHandlers;
 import com.zlx.module_home.BR;
 import com.zlx.module_home.R;
-import com.zlx.module_home.R2;
 import com.zlx.module_home.adapters.RvAdapterSearchClear;
 import com.zlx.module_home.adapters.RvAdapterSearchHis;
 import com.zlx.module_home.adapters.RvAdapterSearchHot;
@@ -34,13 +31,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import butterknife.OnEditorAction;
 
-/**
- * Created by zlx on 2020/9/23 9:37
- * Email: 1170762202@qq.com
- * Description:
- */
 public class SearchAc extends BaseMvvmAc<AcSearchBinding, SearchViewModel> {
 
     private VirtualLayoutManager virtualLayoutManager = new VirtualLayoutManager(this);

@@ -4,11 +4,7 @@ import android.view.animation.Interpolator;
 
 import androidx.annotation.NonNull;
 
-/**
- * Created by zlx on 2020/9/27 14:46
- * Email: 1170762202@qq.com
- * Description:
- */
+
 public class EasingInterpolator implements Interpolator {
 
     private final Ease ease;

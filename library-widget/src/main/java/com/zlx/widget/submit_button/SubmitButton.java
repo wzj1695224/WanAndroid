@@ -11,17 +11,11 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
 
-
 import androidx.core.content.ContextCompat;
 
 import com.zlx.widget.R;
 
-/**
- * @date: 2019\3\4 0004
- * @author: zlx
- * @email: 1170762202@qq.com
- * @description:
- */
+
 public class SubmitButton extends View {
 
 

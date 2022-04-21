@@ -4,9 +4,6 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
-/**
- * Created by CaoDongping on 9/7/16.
- */
 
 public interface FantasyListener {
     /**
