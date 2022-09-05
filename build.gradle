@@ -8,7 +8,7 @@ buildscript {
         jcenter()
         mavenCentral()
         maven {
-            url uri('./plugin-lifecycle/plugin-lifecycle')
+            url uri('./.mavenLocal')
         }
     }
     dependencies {

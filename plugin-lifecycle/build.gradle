@@ -25,7 +25,7 @@ uploadArchives {
             // }
 
             // 本地的Maven地址:当前工程下
-            repository(url: uri('./plugin-lifecycle'))
+            repository(url: uri('../.mavenLocal'))
         }
     }
 }
