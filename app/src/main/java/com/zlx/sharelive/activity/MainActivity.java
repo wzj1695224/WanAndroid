@@ -6,23 +6,18 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
 
-import androidx.fragment.app.Fragment;
-
 import com.alibaba.android.arouter.facade.annotation.Route;
-import com.alibaba.android.arouter.launcher.ARouter;
 import com.zlx.module_base.base_ac.BaseMvvmAc;
 import com.zlx.module_base.constant.RouterActivityPath;
-import com.zlx.module_base.constant.RouterFragmentPath;
 import com.zlx.module_base.viewmodel.BaseViewModel;
 import com.zlx.sharelive.R;
-import com.zlx.sharelive.adapter.VpAdapterMain;
 import com.zlx.sharelive.databinding.AcMainBinding;
-import com.zlx.sharelive.impl.TabPagerListener;
 import com.zlx.widget.bubblenavigation.listener.BubbleNavigationChangeListener;
 
 
 @Route(path = RouterActivityPath.Main.PAGER_MAIN)
-public class MainActivity extends BaseMvvmAc<AcMainBinding, BaseViewModel> implements BubbleNavigationChangeListener, TabPagerListener {
+public class MainActivity extends BaseMvvmAc<AcMainBinding, BaseViewModel> implements BubbleNavigationChangeListener {
+
 
     @Override
     protected boolean canSwipeBack() {
@@ -56,11 +51,12 @@ public class MainActivity extends BaseMvvmAc<AcMainBinding, BaseViewModel> imple
     }
 
     private void initTab() {
-        VpAdapterMain adapterMain = new VpAdapterMain(getSupportFragmentManager());
-        adapterMain.setListener(this);
-        binding.viewPager.setOffscreenPageLimit(5);
+        FragPagerAdapter adapter = new FragPagerAdapter(getSupportFragmentManager());
+        int fragCount = FragPagerAdapter.FRAG_PATH.length;
+
+        binding.viewPager.setOffscreenPageLimit(fragCount);
         binding.viewPager.setScrollable(false);
-        binding.viewPager.setAdapter(adapterMain);
+        binding.viewPager.setAdapter(adapter);
     }
 
 
@@ -82,28 +78,6 @@ public class MainActivity extends BaseMvvmAc<AcMainBinding, BaseViewModel> imple
         return super.onKeyDown(keyCode, event);
     }
 
-    @Override
-    public Fragment getFragment(int position) {
-        if (position == 0) {
-            return (Fragment) ARouter.getInstance().build(RouterFragmentPath.Home.PAGER_HOME).navigation();
-        } else if (position == 1) {
-            return (Fragment) ARouter.getInstance().build(RouterFragmentPath.Project.PAGER_PROJECT).navigation();
-
-        } else if (position == 2) {
-            return (Fragment) ARouter.getInstance().build(RouterFragmentPath.Square.PAGER_SQUARE).navigation();
-        } else if (position == 3) {
-            return (Fragment) ARouter.getInstance().build(RouterFragmentPath.Public.PAGER_PUBLIC).navigation();
-
-        } else if (position == 4) {
-            return (Fragment) ARouter.getInstance().build(RouterFragmentPath.Mine.PAGER_MINE).navigation();
-        }
-        return null;
-    }
-
-    @Override
-    public int count() {
-        return 5;
-    }
 
     @Override
     protected int initContentView(Bundle savedInstanceState) {

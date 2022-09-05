@@ -36,7 +36,6 @@ import com.zlx.module_base.loadsir.LoadingCallback;
 import com.zlx.module_base.widget.slideback.SlideBack;
 
 import butterknife.ButterKnife;
-;
 
 
 public abstract class BaseAc extends AppCompatActivity implements INetView, IAcView {

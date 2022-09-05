@@ -21,13 +21,12 @@ public abstract class BaseMvvmFg<V extends ViewDataBinding, VM extends BaseViewM
     protected VM viewModel;
     protected V binding;
 
-    protected void initParams() {
-    }
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        binding = DataBindingUtil.inflate(inflater, initContentView(inflater, container, savedInstanceState), container, false);
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        int layoutId = initContentView(inflater, container, savedInstanceState);
+        binding = DataBindingUtil.inflate(inflater, layoutId, container, false);
         initImmersionBar();
         return binding.getRoot();
     }
@@ -52,32 +51,37 @@ public abstract class BaseMvvmFg<V extends ViewDataBinding, VM extends BaseViewM
     }
 
     private void initViewDataBinding() {
-
         if (viewModel == null) {
-            Class modelClass;
-            Type type = getClass().getGenericSuperclass();
-            if (type instanceof ParameterizedType) {
-                modelClass = (Class) ((ParameterizedType) type).getActualTypeArguments()[1];
-            } else {
-                //如果没有指定泛型参数，则默认使用BaseViewModel
-                modelClass = BaseViewModel.class;
-            }
-            viewModel = (VM) new ViewModelProvider(this,
-                    ViewModelProvider.AndroidViewModelFactory.getInstance(requireActivity().getApplication()))
-                    .get(modelClass);
+            //noinspection unchecked
+            Class<VM> clazz = (Class<VM>) getViewModelClass();
+            ViewModelProvider.AndroidViewModelFactory factory = ViewModelProvider.AndroidViewModelFactory.getInstance(requireActivity().getApplication());
+            viewModel = new ViewModelProvider(this, factory).get(clazz);
         }
+
         if (initVariableId() > 0) {
             binding.setVariable(initVariableId(), viewModel);
         }
+
         viewModel.uiChangeLiveData().onBackPressedEvent().observe(this, o -> {
            requireActivity().onBackPressed();
         });
     }
 
+
+    private Class<?> getViewModelClass() {
+        Type type = getClass().getGenericSuperclass();
+        if (type instanceof ParameterizedType)
+            return (Class<?>) ((ParameterizedType) type).getActualTypeArguments()[1];
+
+        // 如果没有指定泛型参数，则默认使用BaseViewModel
+        return BaseViewModel.class;
+    }
+    
+    
+
     /**
      * 初始化根布局
      *
-     * @param savedInstanceState
      * @return 布局layout的id
      */
     protected abstract int initContentView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState);
